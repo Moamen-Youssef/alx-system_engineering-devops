@@ -1,1 +1,2 @@
-file -la
+#!/bin/bash
+ls -nla

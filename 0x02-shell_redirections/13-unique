@@ -1,7 +1,2 @@
 #!/bin/bash
-echo "C
-Abg
-fhg
-sort
-sort
-die" | sort -u  
+cat list | sort -u

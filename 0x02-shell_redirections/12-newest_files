@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -ltr | head -n 10 | sort | cut -d " " -f9-
+ls -lt | grep -v ^total | awk {print } | head -n 10
